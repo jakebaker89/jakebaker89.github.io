@@ -1,0 +1,197 @@
+/* Style sheet for index.html */
+
+/*
+    Formatting for body
+ */
+body {
+    font-family: "Century Gothic";
+    color: #3A6A0B;
+}
+
+/*
+    Formatting for Headers
+ */
+h2 {
+    text-align: center;
+    font-size : 24px;
+}
+
+/*
+    Formatting for buttons
+ */
+button {
+    font-family : inherit;
+    background-color: #E1FCC6;
+    color: #3A6A0B;
+    border-radius: 25px;
+    border: 2px solid #3A6A0B;
+    padding: 3px;
+}
+.linkButton {
+    text-align: center;
+}
+.displayButton {
+    text-align: center;
+}
+
+/*
+    Formatting for headers and footers
+ */
+@media screen and (max-width: 450px){
+    #banner {
+        width: 100%;
+        height: 80px;
+    }
+    .table {
+        overflow-y: scroll;
+        height: 70%;
+        top: 20%;
+        position: fixed;
+        text-align: center;
+    }
+    .text {
+        overflow-y: scroll;
+        height: 70%;
+        position: fixed;
+        top: 20%;
+    }
+    .linkButton {
+        overflow-y: scroll;
+        height: 70%;
+        position: fixed;
+        top: 20%;
+        width: 100%;
+    }
+    .displayButton {
+        overflow-y: scroll;
+        height: 70%;
+        position: fixed;
+        top: 20%;
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        height: 6%;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .header {
+        height: 5%;
+        width: 100%;
+        position: fixed;
+        top: 12%;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+@media screen and (min-width: 451px){
+    #banner {
+        width: 100%;
+    }
+    .table {
+        overflow-y: scroll;
+        height: 65%;
+        top: 25%;
+        position: fixed;
+        text-align: center;
+    }
+    .text {
+        overflow-y: scroll;
+        height: 70%;
+        position: fixed;
+        top: 25%;
+    }
+    .linkButton {
+        overflow-y: scroll;
+        height: 70%;
+        position: fixed;
+        top: 25%;
+        width: 100%;
+    }
+    .displayButton {
+        overflow-y: scroll;
+        height: 70%;
+        position: fixed;
+        top: 25%;
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        height: 5%;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .header {
+        height: 20%;
+        width: 100%;
+        position: fixed;
+        top: 18%;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+.banner {
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    top: 4px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#logo {
+    height: 250px;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -125px;
+    position: absolute;
+    top: 50%;
+    width: 250px;
+}
+
+
+.menu {
+    width: 30%;
+    height: 90%;
+}
+
+/*
+    Formatting for tables
+ */
+
+table {
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+    height: 30px;
+}
+.name {
+    width: 20%;
+}
+.height {
+    width: 15%;
+}
+.county {
+    width: 20%;
+}
+.complete {
+    width: 20%;
+}
